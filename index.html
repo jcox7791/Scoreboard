@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Board</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- javascript -->
+    <script defer src="./assets/javascript/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Game Selecton's</h1>
+        <nav>
+            <button id="baseball" class="game_btn">Baseball</button>
+            <button id="basketball" class="game_btn">Basketball</button>
+            <button id="football" class="game_btn">Football</button>
+            <button id="soccer" class="game_btn">Soccer</button>
+            <button id="volleyball" class="game_btn">Volleyball</button>
+            <button id="wrestling" class="game_btn">Wrestling</button>
+        </nav>
+    </header>
+    <main>
+        <div style="display:inline-flex;">
+            <section id="sec_home">
+                <h2>Home Team</h2>
+                <p id="home_scoreRoot" class="points_board"></p>
+            </section>
+            <section id="sec_away">
+                <h2>Away Team</h2>
+                <p id="away_scoreRoot" class="points_board"></p>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <section id="awayHome_root" class="footerSec_roots"></section>
+        <section id="score_btnRoot" class="footerSec_roots"></section>
+        <section id="decrease_root" class="footerSec_roots"></section>
+    </footer>
+</body>
+
+</html>

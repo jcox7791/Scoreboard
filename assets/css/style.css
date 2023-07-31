@@ -1,0 +1,63 @@
+body {
+  background-color: black;
+}
+
+header {
+  background-color: rgba(184, 135, 11, 0.534);
+  border-style: solid;
+  box-shadow: 5px 5px 60px 5px crimson;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+h1 {
+  color: ghostwhite;
+  font-size: 60px;
+  margin-top: -10px;
+  text-shadow: 3px 3px crimson;
+}
+nav {
+  margin-top: -40px;
+}
+.game_btn {
+  background-color: cornsilk;
+  font-size: 20px;
+  margin-left: 20px;
+}
+main {
+  margin-top: 50px;
+  text-align: center;
+}
+section {
+  font-size: 20px;
+  margin-left: 30px;
+}
+h2 {
+  color: crimson;
+}
+.points_board {
+  background-color: beige;
+  border-color: crimson;
+  border-style: double;
+  font-size: 250px;
+  margin-top: -20px;
+}
+footer{
+  background-color: rgba(184, 135, 11, 0.534);
+  border-style: solid;
+  box-shadow: 5px 5px 60px 5px crimson;
+  margin-top: -145px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+.footerSec_roots{
+  margin-bottom: 10px;
+}
+/* Class is set in the JS file. */
+.footerScore_btns{
+  background-color: cornsilk;
+  font-size: 20px;
+  padding: 10px;
+}
